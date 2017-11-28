@@ -8,7 +8,7 @@ const appRoutes: Routes = [
     { path: '', component: TiendaComponent },
     { path: '', redirectTo: 'tienda', pathMatch: 'full' },
     { path: 'tienda', component: TiendaComponent },
-    { path: '**', component: TiendaComponent }
+    { path: '**', component: TiendaComponent } // en caso de que no exista la pagina, se redirige acaaaa..
 ];
 
 export const appRoutingProviders: any[] = [];
