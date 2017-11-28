@@ -1,0 +1,13 @@
+instalar angular cli, dentro de la carpeta de proyectos: npm install -g @angular/cli
+
+despues creo proyect: ng new curso_angular, crea curso
+
+npm start levanta la app
+
+
+
+hooks:
+    onChanges;
+    onInit;
+    doCheck;
+    onDestroy;
