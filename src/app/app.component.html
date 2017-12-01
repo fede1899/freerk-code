@@ -6,6 +6,7 @@
 <a [routerLink]="['/tienda']">Tienda</a>
 <a [routerLink]="['/contacto']">Contacto</a>
 
+<span *ngIf="emailContacto"><strong>Email de contacto:</strong>{{emailContacto}}</span>
 <hr>
 <!--<tienda></tienda>-->
 <router-outlet></router-outlet>

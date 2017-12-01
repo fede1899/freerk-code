@@ -11,3 +11,7 @@ hooks:
     onInit;
     doCheck;
     onDestroy;
+
+
+    local storage: almacenamiento local del navegador, se pueden meter cosas para ahi para usar en toda la
+    es como la session de asp.net
